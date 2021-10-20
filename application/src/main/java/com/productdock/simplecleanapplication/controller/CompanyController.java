@@ -2,13 +2,13 @@ package com.productdock.simplecleanapplication.controller;
 
 import com.productdock.simplecleanapplication.entity.Company;
 import com.productdock.simplecleanapplication.service.CompanyService;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class CompanyController {
 
     private final CompanyService companyService;

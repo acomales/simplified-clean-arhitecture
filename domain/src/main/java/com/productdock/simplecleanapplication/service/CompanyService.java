@@ -12,7 +12,6 @@ public class CompanyService {
     private final CompanyRepository companyRepository;
 
     public Company createCompany(Company company) {
-
         // validations
 
         return companyRepository.save(company);
